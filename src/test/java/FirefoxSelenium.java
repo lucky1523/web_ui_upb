@@ -17,6 +17,7 @@ public class FirefoxSelenium {
         firefoxDriver = new FirefoxDriver();
         firefoxDriver.get("https://skynet.lp.upb.edu/~lpaniagua19/Proyecto/");
         firefoxDriver.manage().window().maximize();
+
         Thread.sleep(3000);
 
     }
